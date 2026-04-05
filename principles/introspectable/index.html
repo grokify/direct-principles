@@ -547,9 +547,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1020,9 +1020,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1145,15 +1145,22 @@
 
 <h1 id="introspectable">Introspectable<a class="headerlink" href="#introspectable" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>APIs must expose machine-readable capabilities and schemas.</p>
+<p>Agents explore capabilities and understand data structures without requiring external docs or humans.</p>
 </blockquote>
 <h2 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h2>
 <p>An interface is <strong>introspectable</strong> when agents can programmatically discover what it does, what inputs it accepts, and what outputs it produces—without reading prose documentation.</p>
-<h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Permanent link">&para;</a></h2>
-<p>Agents don't read documentation like humans do. They need:
-- Structured metadata to understand capabilities
-- Schema definitions to generate valid requests
-- Operation identifiers to reference endpoints programmatically</p>
+<h2 id="why-agents-need-it">Why Agents Need It<a class="headerlink" href="#why-agents-need-it" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Self-describing APIs and data schemas</li>
+<li>No need to read documentation</li>
+<li>Agents discover capabilities on their own</li>
+</ul>
+<p>Agents don't read documentation like humans do. They need:</p>
+<ul>
+<li>Structured metadata to understand capabilities</li>
+<li>Schema definitions to generate valid requests</li>
+<li>Operation identifiers to reference endpoints programmatically</li>
+</ul>
 <p>An API with great human docs but poor machine-readable specs fails agents.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <h3 id="r1-complete-openapiasyncapi-specification">R1: Complete OpenAPI/AsyncAPI Specification<a class="headerlink" href="#r1-complete-openapiasyncapi-specification" title="Permanent link">&para;</a></h3>

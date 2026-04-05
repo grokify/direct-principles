@@ -639,9 +639,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1056,9 +1056,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1217,18 +1217,25 @@
 
 <h1 id="testable">Testable<a class="headerlink" href="#testable" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>APIs must support safe, low-cost experimentation in sandbox environments.</p>
+<p>Agents can try actions safely before committing, learning what works without causing harm.</p>
 </blockquote>
 <h2 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h2>
 <p>An interface is <strong>testable</strong> when agents can experiment with it safely—without causing production side effects, incurring costs, or requiring human intervention.</p>
-<h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Permanent link">&para;</a></h2>
+<h2 id="why-agents-need-it">Why Agents Need It<a class="headerlink" href="#why-agents-need-it" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Dry-run or sandbox modes available</li>
+<li>Safe experimentation without consequences</li>
+<li>Enables agents to learn by trying</li>
+</ul>
 <p>Agents iterate. A lot.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>generate → call → fail → learn → fix → retry
 </code></pre></div>
-<p>This cycle may execute hundreds of times per task. If each iteration:
-- Costs money
-- Affects production data
-- Requires manual approval</p>
+<p>This cycle may execute hundreds of times per task. If each iteration:</p>
+<ul>
+<li>Costs money</li>
+<li>Affects production data</li>
+<li>Requires manual approval</li>
+</ul>
 <p>...agents become impractical.</p>
 <p>Testability enables the rapid iteration that makes agents effective.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>

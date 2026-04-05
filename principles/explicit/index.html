@@ -593,9 +593,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1062,9 +1062,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1229,15 +1229,22 @@
 
 <h1 id="explicit">Explicit<a class="headerlink" href="#explicit" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>All constraints and requirements must be declared in the specification.</p>
+<p>Agents operate within clear boundaries and constraints so they act with confidence.</p>
 </blockquote>
 <h2 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h2>
 <p>An interface is <strong>explicit</strong> when every constraint, format, validation rule, and requirement is declared in the specification—not hidden in server code, documentation prose, or tribal knowledge.</p>
-<h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Permanent link">&para;</a></h2>
-<p>Agents can only work with what's in the spec. If a field:
-- Has a maximum length documented in prose but not schema
-- Requires a specific format "everyone knows"
-- Has validation rules only in server code</p>
+<h2 id="why-agents-need-it">Why Agents Need It<a class="headerlink" href="#why-agents-need-it" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Unambiguous parameters and behavior</li>
+<li>Clear input validation and constraints</li>
+<li>Reduces agent hesitation and errors</li>
+</ul>
+<p>Agents can only work with what's in the spec. If a field:</p>
+<ul>
+<li>Has a maximum length documented in prose but not schema</li>
+<li>Requires a specific format "everyone knows"</li>
+<li>Has validation rules only in server code</li>
+</ul>
 <p>...agents will fail because they can't access that information programmatically.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <h3 id="r1-required-fields-in-schema">R1: Required Fields in Schema<a class="headerlink" href="#r1-required-fields-in-schema" title="Permanent link">&para;</a></h3>

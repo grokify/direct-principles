@@ -524,9 +524,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1044,9 +1044,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1193,15 +1193,22 @@
 
 <h1 id="deterministic">Deterministic<a class="headerlink" href="#deterministic" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>APIs must behave predictably with strictly defined inputs and outputs.</p>
+<p>Agents trust the system to behave the same way each time, making safe recovery from errors natural.</p>
 </blockquote>
 <h2 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h2>
 <p>An interface is <strong>deterministic</strong> when the same input always produces the same output shape, with no ambiguity in field presence, types, or behavior.</p>
-<h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Permanent link">&para;</a></h2>
-<p>Agents cannot handle ambiguity. When an API returns:
-- "sometimes this field is null"
-- "this field may or may not be present"
-- "the response shape depends on context"</p>
+<h2 id="why-agents-need-it">Why Agents Need It<a class="headerlink" href="#why-agents-need-it" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Same input → same output, every time</li>
+<li>Failed operations can be safely retried</li>
+<li>Enables autonomous error recovery</li>
+</ul>
+<p>Agents cannot handle ambiguity. When an API returns:</p>
+<ul>
+<li>"sometimes this field is null"</li>
+<li>"this field may or may not be present"</li>
+<li>"the response shape depends on context"</li>
+</ul>
 <p>...agents fail. They generate code expecting one structure and receive another.</p>
 <p>Humans handle this through documentation reading and debugging. Agents need explicit contracts.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>

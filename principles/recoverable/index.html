@@ -570,9 +570,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1038,9 +1038,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-it-matters" class="md-nav__link">
+  <a href="#why-agents-need-it" class="md-nav__link">
     <span class="md-ellipsis">
-      Why It Matters
+      Why Agents Need It
     </span>
   </a>
   
@@ -1181,17 +1181,24 @@
 
 <h1 id="recoverable">Recoverable<a class="headerlink" href="#recoverable" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Errors must be structured and enable automated correction.</p>
+<p>Agents can diagnose what went wrong and take corrective action without human intervention.</p>
 </blockquote>
 <h2 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h2>
 <p>An interface is <strong>recoverable</strong> when agents can parse errors, understand what went wrong, and take corrective action without human intervention.</p>
-<h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Permanent link">&para;</a></h2>
-<p>Agents iterate. They:
-1. Generate a request
-2. Send it
-3. Fail
-4. Learn from the error
-5. Fix and retry</p>
+<h2 id="why-agents-need-it">Why Agents Need It<a class="headerlink" href="#why-agents-need-it" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Clear error messages with context</li>
+<li>Agents understand what failed and why</li>
+<li>Actionable recovery paths available</li>
+</ul>
+<p>Agents iterate. They:</p>
+<ol>
+<li>Generate a request</li>
+<li>Send it</li>
+<li>Fail</li>
+<li>Learn from the error</li>
+<li>Fix and retry</li>
+</ol>
 <p>If errors are opaque (<code>400 Bad Request</code>), agents stall. Structured errors enable the feedback loop that makes agents effective.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <h3 id="r1-machine-readable-error-codes">R1: Machine-Readable Error Codes<a class="headerlink" href="#r1-machine-readable-error-codes" title="Permanent link">&para;</a></h3>

@@ -1134,39 +1134,39 @@
 <tr>
 <th>Letter</th>
 <th>Principle</th>
-<th>One-Line Summary</th>
+<th>Why Agents Need It</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>D</strong></td>
 <td><a href="deterministic/">Deterministic</a></td>
-<td>Same input always produces same output shape</td>
+<td>Agents trust the system to behave the same way each time</td>
 </tr>
 <tr>
 <td><strong>I</strong></td>
 <td><a href="introspectable/">Introspectable</a></td>
-<td>Machine-readable capabilities and schemas</td>
+<td>Agents explore capabilities without external docs or humans</td>
 </tr>
 <tr>
 <td><strong>R</strong></td>
 <td><a href="recoverable/">Recoverable</a></td>
-<td>Structured errors enable automated correction</td>
+<td>Agents diagnose and correct errors without human intervention</td>
 </tr>
 <tr>
 <td><strong>E</strong></td>
 <td><a href="explicit/">Explicit</a></td>
-<td>All constraints declared in specification</td>
+<td>Agents operate within clear boundaries with confidence</td>
 </tr>
 <tr>
 <td><strong>C</strong></td>
 <td><a href="consistent/">Consistent</a></td>
-<td>Uniform patterns across all endpoints</td>
+<td>Agents build mental models once and apply everywhere</td>
 </tr>
 <tr>
 <td><strong>T</strong></td>
 <td><a href="testable/">Testable</a></td>
-<td>Safe, low-cost experimentation available</td>
+<td>Agents try actions safely before committing</td>
 </tr>
 </tbody>
 </table>
@@ -1198,8 +1198,14 @@
 <h2 id="quick-reference">Quick Reference<a class="headerlink" href="#quick-reference" title="Permanent link">&para;</a></h2>
 <h3 id="deterministic">Deterministic<a class="headerlink" href="#deterministic" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>APIs must behave predictably with strictly defined inputs and outputs.</p>
+<p>Agents trust the system to behave the same way each time, making safe recovery from errors natural.</p>
 </blockquote>
+<p><strong>What this enables:</strong></p>
+<ul>
+<li>Same input → same output, every time</li>
+<li>Failed operations can be safely retried</li>
+<li>Autonomous error recovery</li>
+</ul>
 <p><strong>Key requirements:</strong></p>
 <ul>
 <li>Explicit type definitions for all fields</li>
@@ -1211,8 +1217,14 @@
 <hr />
 <h3 id="introspectable">Introspectable<a class="headerlink" href="#introspectable" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>APIs must expose machine-readable capabilities and schemas.</p>
+<p>Agents explore capabilities and understand data structures without requiring external docs or humans.</p>
 </blockquote>
+<p><strong>What this enables:</strong></p>
+<ul>
+<li>Self-describing APIs and data schemas</li>
+<li>No need to read documentation</li>
+<li>Agents discover capabilities on their own</li>
+</ul>
 <p><strong>Key requirements:</strong></p>
 <ul>
 <li>Complete OpenAPI/AsyncAPI specifications</li>
@@ -1224,8 +1236,14 @@
 <hr />
 <h3 id="recoverable">Recoverable<a class="headerlink" href="#recoverable" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>Errors must be structured and enable automated correction.</p>
+<p>Agents can diagnose what went wrong and take corrective action without human intervention.</p>
 </blockquote>
+<p><strong>What this enables:</strong></p>
+<ul>
+<li>Clear error messages with context</li>
+<li>Agents understand what failed and why</li>
+<li>Actionable recovery paths available</li>
+</ul>
 <p><strong>Key requirements:</strong></p>
 <ul>
 <li>Machine-readable error codes</li>
@@ -1237,8 +1255,14 @@
 <hr />
 <h3 id="explicit">Explicit<a class="headerlink" href="#explicit" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>All constraints and requirements must be declared in the specification.</p>
+<p>Agents operate within clear boundaries and constraints so they act with confidence.</p>
 </blockquote>
+<p><strong>What this enables:</strong></p>
+<ul>
+<li>Unambiguous parameters and behavior</li>
+<li>Clear input validation and constraints</li>
+<li>Reduces agent hesitation and errors</li>
+</ul>
 <p><strong>Key requirements:</strong></p>
 <ul>
 <li><code>required</code> arrays in schemas</li>
@@ -1250,8 +1274,14 @@
 <hr />
 <h3 id="consistent">Consistent<a class="headerlink" href="#consistent" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>APIs must follow uniform patterns across endpoints.</p>
+<p>Agents build mental models once and apply them everywhere, scaling their effectiveness.</p>
 </blockquote>
+<p><strong>What this enables:</strong></p>
+<ul>
+<li>Uniform patterns across all APIs</li>
+<li>Agents learn rules once, apply everywhere</li>
+<li>Reduces cognitive load exponentially</li>
+</ul>
 <p><strong>Key requirements:</strong></p>
 <ul>
 <li>Consistent naming conventions</li>
@@ -1263,8 +1293,14 @@
 <hr />
 <h3 id="testable">Testable<a class="headerlink" href="#testable" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>APIs must support safe, low-cost experimentation.</p>
+<p>Agents can try actions safely before committing, learning what works without causing harm.</p>
 </blockquote>
+<p><strong>What this enables:</strong></p>
+<ul>
+<li>Dry-run or sandbox modes available</li>
+<li>Safe experimentation without consequences</li>
+<li>Enables agents to learn by trying</li>
+</ul>
 <p><strong>Key requirements:</strong></p>
 <ul>
 <li>Sandbox environments</li>
