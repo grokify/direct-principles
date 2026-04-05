@@ -181,5 +181,5 @@ Display your compliance level:
 
 ## Related
 
-- [AX Spec](https://github.com/grokify/ax-spec) - Spectral rulesets for each level
-- [DIRECT Principles](./README.md) - The underlying principles
+- [AX Spec](https://github.com/plexusone/ax-spec) - Spectral rulesets for each level
+- [DIRECT Principles](../principles/index.md) - The underlying principles
