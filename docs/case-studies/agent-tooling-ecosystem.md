@@ -292,17 +292,17 @@ agent-team-stats --topic "AI adoption" --verify
 
 | Tool | D | I | R | E | C | T |
 |------|---|---|---|---|---|---|
-| ax-spec | | ✓ | | ✓ | | |
-| traffic2openapi | | ✓ | | ✓ | | |
-| schemalint | ✓ | | | ✓ | | |
-| structured-changelog | | ✓ | | ✓ | ✓ | |
-| w3pilot | | ✓ | ✓ | | | ✓ |
-| d2vision | ✓ | ✓ | | | | |
-| brandkit | | ✓ | ✓ | | | |
 | agent-team-release | | | ✓ | | ✓ | ✓ |
 | agent-team-stats | ✓ | | | | | ✓ |
-| multi-agent-spec | ✓ | | | ✓ | | |
+| ax-spec | | ✓ | | ✓ | | |
+| brandkit | | ✓ | ✓ | | | |
+| d2vision | ✓ | ✓ | | | | |
 | design-system-spec | | ✓ | | | ✓ | |
+| multi-agent-spec | ✓ | | | ✓ | | |
+| schemalint | ✓ | | | ✓ | | |
+| structured-changelog | | ✓ | | ✓ | ✓ | |
+| traffic2openapi | | ✓ | | ✓ | | |
+| w3pilot | | ✓ | ✓ | | | ✓ |
 
 ## Lessons Learned
 
