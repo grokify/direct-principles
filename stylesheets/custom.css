@@ -41,6 +41,10 @@
 }
 
 /* Navigation tabs */
+.md-tabs {
+  display: block !important;
+}
+
 [data-md-color-scheme="slate"] .md-tabs {
   background-color: #0b1120;
   border-bottom: 1px solid rgba(99, 195, 255, 0.08);
