@@ -124,6 +124,23 @@
   color: #63c3ff;
 }
 
+/* Repository link in header */
+[data-md-color-scheme="slate"] .md-header__source {
+  display: flex !important;
+}
+
+[data-md-color-scheme="slate"] .md-source {
+  color: #e8edf5;
+}
+
+[data-md-color-scheme="slate"] .md-source__icon {
+  color: #e8edf5;
+}
+
+[data-md-color-scheme="slate"] .md-source__repository {
+  color: #e8edf5;
+}
+
 /* Search */
 [data-md-color-scheme="slate"] .md-search__form {
   background-color: #141c2e;
