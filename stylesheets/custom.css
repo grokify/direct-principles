@@ -1,0 +1,136 @@
+/* Custom theme to match DIRECT Principles landing page */
+
+/* Color palette matching index.html */
+:root {
+  --md-primary-fg-color: #63c3ff;
+  --md-primary-fg-color--light: #8ad3ff;
+  --md-primary-fg-color--dark: #4ab3f5;
+  --md-accent-fg-color: #63c3ff;
+  --md-accent-fg-color--transparent: rgba(99, 195, 255, 0.1);
+}
+
+/* Dark mode (slate scheme) customizations */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0b1120;
+  --md-default-bg-color--light: #141c2e;
+  --md-default-bg-color--lighter: #1a2438;
+  --md-default-bg-color--lightest: #232d42;
+
+  --md-default-fg-color: #e8edf5;
+  --md-default-fg-color--light: #8a95aa;
+  --md-default-fg-color--lighter: #6b7588;
+  --md-default-fg-color--lightest: #4a5568;
+
+  --md-primary-fg-color: #63c3ff;
+  --md-primary-bg-color: #0b1120;
+  --md-accent-fg-color: #63c3ff;
+
+  --md-typeset-a-color: #63c3ff;
+
+  --md-code-bg-color: #141c2e;
+  --md-code-fg-color: #e8edf5;
+
+  --md-footer-bg-color: #0b1120;
+  --md-footer-bg-color--dark: #080d18;
+}
+
+/* Header styling */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0b1120;
+  border-bottom: 1px solid rgba(99, 195, 255, 0.1);
+}
+
+/* Navigation tabs */
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #0b1120;
+  border-bottom: 1px solid rgba(99, 195, 255, 0.08);
+}
+
+/* Sidebar */
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: #0b1120;
+}
+
+/* Content area */
+[data-md-color-scheme="slate"] .md-content {
+  background-color: #0b1120;
+}
+
+/* Code blocks */
+[data-md-color-scheme="slate"] .highlight code,
+[data-md-color-scheme="slate"] code {
+  background-color: #141c2e;
+  border: 1px solid rgba(99, 195, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .highlight pre {
+  background-color: #141c2e;
+  border: 1px solid rgba(99, 195, 255, 0.1);
+}
+
+/* Tables */
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+  background-color: #141c2e;
+  border: 1px solid rgba(99, 195, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: rgba(99, 195, 255, 0.1);
+  color: #63c3ff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td {
+  border-color: rgba(99, 195, 255, 0.08);
+}
+
+/* Admonitions */
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  background-color: #141c2e;
+  border-color: rgba(99, 195, 255, 0.2);
+}
+
+/* Links */
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #63c3ff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #8ad3ff;
+}
+
+/* Navigation active state */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #63c3ff;
+}
+
+/* Search */
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #141c2e;
+  border: 1px solid rgba(99, 195, 255, 0.1);
+}
+
+/* Footer */
+[data-md-color-scheme="slate"] .md-footer {
+  background-color: #080d18;
+  border-top: 1px solid rgba(99, 195, 255, 0.1);
+}
+
+/* Scrollbar styling for dark mode */
+[data-md-color-scheme="slate"] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-track {
+  background: #0b1120;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb {
+  background: #232d42;
+  border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb:hover {
+  background: #63c3ff;
+}

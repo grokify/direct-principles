@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://grokify.github.io/direct-principles/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <loc>https://grokify.github.io/direct-principles/home/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://grokify.github.io/direct-principles/case-studies/agent-tooling-ecosystem/</loc>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/compliance/levels/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/presentations/direct-overview/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/consistent/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/deterministic/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/explicit/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/introspectable/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/recoverable/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
          <loc>https://grokify.github.io/direct-principles/principles/testable/</loc>
-         <lastmod>2026-04-04</lastmod>
+         <lastmod>2026-04-05</lastmod>
     </url>
 </urlset>
