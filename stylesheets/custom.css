@@ -40,14 +40,30 @@
   border-bottom: 1px solid rgba(99, 195, 255, 0.1);
 }
 
-/* Navigation tabs */
+/* Navigation tabs - force visible */
 .md-tabs {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  min-height: 2.4rem !important;
+}
+
+.md-tabs__list {
+  display: flex !important;
+}
+
+.md-tabs__item {
   display: block !important;
 }
 
 [data-md-color-scheme="slate"] .md-tabs {
   background-color: #0b1120;
   border-bottom: 1px solid rgba(99, 195, 255, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #e8edf5 !important;
 }
 
 /* Sidebar */
