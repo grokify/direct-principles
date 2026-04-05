@@ -124,6 +124,23 @@
   color: #63c3ff;
 }
 
+/* Header elements - ensure visibility on dark background */
+[data-md-color-scheme="slate"] .md-header {
+  color: #e8edf5;
+}
+
+[data-md-color-scheme="slate"] .md-header__button {
+  color: #e8edf5;
+}
+
+[data-md-color-scheme="slate"] .md-header__title {
+  color: #e8edf5;
+}
+
+[data-md-color-scheme="slate"] .md-header__topic {
+  color: #e8edf5;
+}
+
 /* Repository link in header */
 [data-md-color-scheme="slate"] .md-header__source {
   display: flex !important;
@@ -137,8 +154,16 @@
   color: #e8edf5;
 }
 
+[data-md-color-scheme="slate"] .md-source__icon svg {
+  fill: #e8edf5;
+}
+
 [data-md-color-scheme="slate"] .md-source__repository {
   color: #e8edf5;
+}
+
+[data-md-color-scheme="slate"] .md-source__facts {
+  color: #8a95aa;
 }
 
 /* Search */
