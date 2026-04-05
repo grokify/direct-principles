@@ -292,17 +292,17 @@ agent-team-stats --topic "AI adoption" --verify
 
 | Tool | D | I | R | E | C | T |
 |------|---|---|---|---|---|---|
-| agent-team-release | | | ✓ | | ✓ | ✓ |
-| agent-team-stats | ✓ | | | | | ✓ |
-| ax-spec | | ✓ | | ✓ | | |
-| brandkit | | ✓ | ✓ | | | |
-| d2vision | ✓ | ✓ | | | | |
-| design-system-spec | | ✓ | | | ✓ | |
-| multi-agent-spec | ✓ | | | ✓ | | |
-| schemalint | ✓ | | | ✓ | | |
-| structured-changelog | | ✓ | | ✓ | ✓ | |
-| traffic2openapi | | ✓ | | ✓ | | |
-| w3pilot | | ✓ | ✓ | | | ✓ |
+| [agent-team-release](https://github.com/plexusone/agent-team-release) | | | ✓ | | ✓ | ✓ |
+| [agent-team-stats](https://github.com/plexusone/agent-team-stats) | ✓ | | | | | ✓ |
+| [ax-spec](https://github.com/plexusone/ax-spec) | | ✓ | | ✓ | | |
+| [brandkit](https://github.com/grokify/brandkit) | | ✓ | ✓ | | | |
+| [d2vision](https://github.com/grokify/d2vision) | ✓ | ✓ | | | | |
+| [design-system-spec](https://github.com/plexusone/design-system-spec) | | ✓ | | | ✓ | |
+| [multi-agent-spec](https://github.com/plexusone/multi-agent-spec) | ✓ | | | ✓ | | |
+| [schemalint](https://github.com/grokify/schemalint) | ✓ | | | ✓ | | |
+| [structured-changelog](https://github.com/grokify/structured-changelog) | | ✓ | | ✓ | ✓ | |
+| [traffic2openapi](https://github.com/grokify/traffic2openapi) | | ✓ | | ✓ | | |
+| [w3pilot](https://github.com/plexusone/w3pilot) | | ✓ | ✓ | | | ✓ |
 
 ## Lessons Learned
 
