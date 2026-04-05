@@ -1,14 +1,19 @@
 # Introspectable
 
-> APIs must expose machine-readable capabilities and schemas.
+> Agents explore capabilities and understand data structures without requiring external docs or humans.
 
 ## Definition
 
 An interface is **introspectable** when agents can programmatically discover what it does, what inputs it accepts, and what outputs it produces—without reading prose documentation.
 
-## Why It Matters
+## Why Agents Need It
+
+- Self-describing APIs and data schemas
+- No need to read documentation
+- Agents discover capabilities on their own
 
 Agents don't read documentation like humans do. They need:
+
 - Structured metadata to understand capabilities
 - Schema definitions to generate valid requests
 - Operation identifiers to reference endpoints programmatically

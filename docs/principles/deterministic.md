@@ -1,14 +1,19 @@
 # Deterministic
 
-> APIs must behave predictably with strictly defined inputs and outputs.
+> Agents trust the system to behave the same way each time, making safe recovery from errors natural.
 
 ## Definition
 
 An interface is **deterministic** when the same input always produces the same output shape, with no ambiguity in field presence, types, or behavior.
 
-## Why It Matters
+## Why Agents Need It
+
+- Same input → same output, every time
+- Failed operations can be safely retried
+- Enables autonomous error recovery
 
 Agents cannot handle ambiguity. When an API returns:
+
 - "sometimes this field is null"
 - "this field may or may not be present"
 - "the response shape depends on context"

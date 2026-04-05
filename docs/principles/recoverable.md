@@ -1,14 +1,19 @@
 # Recoverable
 
-> Errors must be structured and enable automated correction.
+> Agents can diagnose what went wrong and take corrective action without human intervention.
 
 ## Definition
 
 An interface is **recoverable** when agents can parse errors, understand what went wrong, and take corrective action without human intervention.
 
-## Why It Matters
+## Why Agents Need It
+
+- Clear error messages with context
+- Agents understand what failed and why
+- Actionable recovery paths available
 
 Agents iterate. They:
+
 1. Generate a request
 2. Send it
 3. Fail

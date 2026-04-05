@@ -1,14 +1,19 @@
 # Consistent
 
-> APIs must follow uniform patterns across endpoints.
+> Agents build mental models once and apply them everywhere, scaling their effectiveness.
 
 ## Definition
 
 An interface is **consistent** when it uses the same patterns, conventions, and structures throughout—allowing agents to generalize from one endpoint to all others.
 
-## Why It Matters
+## Why Agents Need It
+
+- Uniform patterns across all APIs
+- Agents learn rules once, apply everywhere
+- Reduces cognitive load exponentially
 
 Agents learn patterns. When they see:
+
 - Pagination working one way on `/users`
 - Pagination working differently on `/orders`
 - A third way on `/products`

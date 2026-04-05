@@ -6,14 +6,14 @@ DIRECT is to Agent Experience what SOLID is to Object-Oriented Design: a foundat
 
 ## The Six Principles
 
-| Principle | Summary |
-|-----------|---------|
-| **D**eterministic | Predictable behavior with strictly defined inputs and outputs |
-| **I**ntrospectable | Machine-readable capabilities, schemas, and metadata |
-| **R**ecoverable | Structured errors that enable automated correction |
-| **E**xplicit | All constraints and requirements declared in specification |
-| **C**onsistent | Uniform patterns across endpoints and interfaces |
-| **T**estable | Safe, low-cost experimentation in sandbox environments |
+| Principle | Why Agents Need It |
+|-----------|-------------------|
+| **D**eterministic | Agents trust the system to behave the same way each time, making safe recovery from errors natural |
+| **I**ntrospectable | Agents explore capabilities and understand data structures without requiring external docs or humans |
+| **R**ecoverable | Agents can diagnose what went wrong and take corrective action without human intervention |
+| **E**xplicit | Agents operate within clear boundaries and constraints so they act with confidence |
+| **C**onsistent | Agents build mental models once and apply them everywhere, scaling their effectiveness |
+| **T**estable | Agents can try actions safely before committing, learning what works without causing harm |
 
 ## Why DIRECT?
 

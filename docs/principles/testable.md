@@ -1,12 +1,16 @@
 # Testable
 
-> APIs must support safe, low-cost experimentation in sandbox environments.
+> Agents can try actions safely before committing, learning what works without causing harm.
 
 ## Definition
 
 An interface is **testable** when agents can experiment with it safely—without causing production side effects, incurring costs, or requiring human intervention.
 
-## Why It Matters
+## Why Agents Need It
+
+- Dry-run or sandbox modes available
+- Safe experimentation without consequences
+- Enables agents to learn by trying
 
 Agents iterate. A lot.
 
@@ -15,6 +19,7 @@ generate → call → fail → learn → fix → retry
 ```
 
 This cycle may execute hundreds of times per task. If each iteration:
+
 - Costs money
 - Affects production data
 - Requires manual approval

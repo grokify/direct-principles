@@ -1,14 +1,19 @@
 # Explicit
 
-> All constraints and requirements must be declared in the specification.
+> Agents operate within clear boundaries and constraints so they act with confidence.
 
 ## Definition
 
 An interface is **explicit** when every constraint, format, validation rule, and requirement is declared in the specification—not hidden in server code, documentation prose, or tribal knowledge.
 
-## Why It Matters
+## Why Agents Need It
+
+- Unambiguous parameters and behavior
+- Clear input validation and constraints
+- Reduces agent hesitation and errors
 
 Agents can only work with what's in the spec. If a field:
+
 - Has a maximum length documented in prose but not schema
 - Requires a specific format "everyone knows"
 - Has validation rules only in server code

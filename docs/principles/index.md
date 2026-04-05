@@ -6,14 +6,14 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 **D.I.R.E.C.T.** stands for:
 
-| Letter | Principle | One-Line Summary |
-|--------|-----------|------------------|
-| **D** | [Deterministic](deterministic.md) | Same input always produces same output shape |
-| **I** | [Introspectable](introspectable.md) | Machine-readable capabilities and schemas |
-| **R** | [Recoverable](recoverable.md) | Structured errors enable automated correction |
-| **E** | [Explicit](explicit.md) | All constraints declared in specification |
-| **C** | [Consistent](consistent.md) | Uniform patterns across all endpoints |
-| **T** | [Testable](testable.md) | Safe, low-cost experimentation available |
+| Letter | Principle | Why Agents Need It |
+|--------|-----------|-------------------|
+| **D** | [Deterministic](deterministic.md) | Agents trust the system to behave the same way each time |
+| **I** | [Introspectable](introspectable.md) | Agents explore capabilities without external docs or humans |
+| **R** | [Recoverable](recoverable.md) | Agents diagnose and correct errors without human intervention |
+| **E** | [Explicit](explicit.md) | Agents operate within clear boundaries with confidence |
+| **C** | [Consistent](consistent.md) | Agents build mental models once and apply everywhere |
+| **T** | [Testable](testable.md) | Agents try actions safely before committing |
 
 ## Principle Relationships
 
@@ -47,7 +47,13 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 ### Deterministic
 
-> APIs must behave predictably with strictly defined inputs and outputs.
+> Agents trust the system to behave the same way each time, making safe recovery from errors natural.
+
+**What this enables:**
+
+- Same input → same output, every time
+- Failed operations can be safely retried
+- Autonomous error recovery
 
 **Key requirements:**
 
@@ -62,7 +68,13 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 ### Introspectable
 
-> APIs must expose machine-readable capabilities and schemas.
+> Agents explore capabilities and understand data structures without requiring external docs or humans.
+
+**What this enables:**
+
+- Self-describing APIs and data schemas
+- No need to read documentation
+- Agents discover capabilities on their own
 
 **Key requirements:**
 
@@ -77,7 +89,13 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 ### Recoverable
 
-> Errors must be structured and enable automated correction.
+> Agents can diagnose what went wrong and take corrective action without human intervention.
+
+**What this enables:**
+
+- Clear error messages with context
+- Agents understand what failed and why
+- Actionable recovery paths available
 
 **Key requirements:**
 
@@ -92,7 +110,13 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 ### Explicit
 
-> All constraints and requirements must be declared in the specification.
+> Agents operate within clear boundaries and constraints so they act with confidence.
+
+**What this enables:**
+
+- Unambiguous parameters and behavior
+- Clear input validation and constraints
+- Reduces agent hesitation and errors
 
 **Key requirements:**
 
@@ -107,7 +131,13 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 ### Consistent
 
-> APIs must follow uniform patterns across endpoints.
+> Agents build mental models once and apply them everywhere, scaling their effectiveness.
+
+**What this enables:**
+
+- Uniform patterns across all APIs
+- Agents learn rules once, apply everywhere
+- Reduces cognitive load exponentially
 
 **Key requirements:**
 
@@ -122,7 +152,13 @@ The six DIRECT principles form a comprehensive framework for designing agent-fri
 
 ### Testable
 
-> APIs must support safe, low-cost experimentation.
+> Agents can try actions safely before committing, learning what works without causing harm.
+
+**What this enables:**
+
+- Dry-run or sandbox modes available
+- Safe experimentation without consequences
+- Enables agents to learn by trying
 
 **Key requirements:**
 
