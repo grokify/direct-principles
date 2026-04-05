@@ -19,15 +19,15 @@ The following tools were designed with DIRECT principles as a guide:
 
 | Tool | Purpose | Primary Principles |
 |------|---------|-------------------|
-| [ax-spec](https://github.com/plexusone/ax-spec) | OpenAPI linting & enrichment | I, E |
-| [traffic2openapi](https://github.com/grokify/traffic2openapi) | Generate specs from traffic | I, E |
-| [schemalint](https://github.com/grokify/schemalint) | Schema validation for static typing | D, E |
-| [structured-changelog](https://github.com/grokify/structured-changelog) | Token-efficient changelogs | I, E, C |
-| [w3pilot](https://github.com/plexusone/w3pilot) | Browser automation for agents | I, R, T |
-| [d2vision](https://github.com/grokify/d2vision) | Declarative diagram generation | D, I |
-| [brandkit](https://github.com/grokify/brandkit) | SVG icon operations | I, R |
 | [agent-team-release](https://github.com/plexusone/agent-team-release) | Release automation | R, C, T |
 | [agent-team-stats](https://github.com/plexusone/agent-team-stats) | Statistics with verification | D, T |
+| [ax-spec](https://github.com/plexusone/ax-spec) | OpenAPI linting & enrichment | I, E |
+| [brandkit](https://github.com/grokify/brandkit) | SVG icon operations | I, R |
+| [d2vision](https://github.com/grokify/d2vision) | Declarative diagram generation | D, I |
+| [schemalint](https://github.com/grokify/schemalint) | Schema validation for static typing | D, E |
+| [structured-changelog](https://github.com/grokify/structured-changelog) | Token-efficient changelogs | I, E, C |
+| [traffic2openapi](https://github.com/grokify/traffic2openapi) | Generate specs from traffic | I, E |
+| [w3pilot](https://github.com/plexusone/w3pilot) | Browser automation for agents | I, R, T |
 
 ## Principle Application
 
