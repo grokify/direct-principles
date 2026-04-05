@@ -6,14 +6,14 @@ Design principles for Agent Experience (AX) - building software interfaces that 
 
 ## The Six Principles
 
-| Principle | Summary |
-|-----------|---------|
-| [**D**eterministic](principles/deterministic.md) | Predictable behavior with strictly defined inputs and outputs |
-| [**I**ntrospectable](principles/introspectable.md) | Machine-readable capabilities, schemas, and metadata |
-| [**R**ecoverable](principles/recoverable.md) | Structured errors that enable automated correction |
-| [**E**xplicit](principles/explicit.md) | All constraints and requirements declared in specification |
-| [**C**onsistent](principles/consistent.md) | Uniform patterns across endpoints and interfaces |
-| [**T**estable](principles/testable.md) | Safe, low-cost experimentation in sandbox environments |
+| Principle | Why Agents Need It |
+|-----------|-------------------|
+| [**D**eterministic](principles/deterministic.md) | Agents trust the system to behave the same way each time, making safe recovery from errors natural |
+| [**I**ntrospectable](principles/introspectable.md) | Agents explore capabilities and understand data structures without requiring external docs or humans |
+| [**R**ecoverable](principles/recoverable.md) | Agents can diagnose what went wrong and take corrective action without human intervention |
+| [**E**xplicit](principles/explicit.md) | Agents operate within clear boundaries and constraints so they act with confidence |
+| [**C**onsistent](principles/consistent.md) | Agents build mental models once and apply them everywhere, scaling their effectiveness |
+| [**T**estable](principles/testable.md) | Agents can try actions safely before committing, learning what works without causing harm |
 
 ## Why DIRECT?
 
